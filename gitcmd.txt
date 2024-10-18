@@ -1,0 +1,10 @@
+git init
+git status
+git config --global --add safe.directory /home/groupoffice
+
+git add filename  (To commit the file in staged)
+git rm --cached     filename (To remove file stage mode to untracked mode)
+git add . (To commit all files in stage mode in derectory)
+git reset (To reset all file in stage mode)
+git restore ()
+
